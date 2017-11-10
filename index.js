@@ -15,3 +15,14 @@ function logShout(word){
 function logWhisper(word){
   console.log(word.toLowerCase())
 }
+
+
+function sayHiToGrandma(phrase){
+  // how do we know if a string is in lowercase?
+  if (phrase.toUpperCase() === phrase){
+    return "YES INDEED!"
+  } else {
+    "I can't hear you!"
+  }
+}
+
