@@ -21,8 +21,9 @@ function sayHiToGrandma(phrase){
   // how do we know if a string is in lowercase?
   if (phrase.toUpperCase() === phrase){
     return "YES INDEED!"
+  } else if ("I love you, Grandma." === phrase){
+    return "I love you, too."
   } else {
-    "I can't hear you!"
+    return "I can't hear you!"
   }
 }
-
