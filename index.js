@@ -19,12 +19,11 @@ function logWhisper(word){
 
 function sayHiToGrandma(phrase){
   // how do we know if a string is in lowercase?
-  var x = (if (phrase.toUpperCase() === phrase){
-     "YES INDEED!"
+  if (phrase.toUpperCase() === phrase){
+    return "YES INDEED!"
   } else if ("I love you, Grandma." === phrase){
-     "I love you, too."
+    return "I love you, too."
   } else {
-     "I can't hear you!"
-  })
-  return x
+    return "I can't hear you!"
+  }
 }
